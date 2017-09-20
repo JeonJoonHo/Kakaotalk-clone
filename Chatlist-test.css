@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+}
+
+.top-menu {
+    color: white;
+    background-color: #523637;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-menu > .header-chat {
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.top-menu > .header-menu, .header-search {
+    float: right;
+}
+
+.top-menu > .header-search {
+    margin-right: 30px;
+}
+
+.top-menu > .header-menu {
+    margin-right: 20px;
+}
+
+.bottom-menu {
+    background-color: #f2f2f5;
+    display: flex;
+    height: 60px;
+    line-height: 70px;
+}
+
+.menu-item {
+    width: 25%;
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+
+.active {
+    border-bottom: 2px solid #523637;
+}
+
+.chat {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.chat > .chat-images {
+    width: 20%;
+    height: 200px;
+}
+
+.chat-images > .chat-image {
+    margin: 25px 0 0 5px;
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.chat > .chat-text {
+    width: 70%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);;
+}
+
+.chat-text > .chat-title {
+    margin-top: 40px;
+}
+
+.chat-text > .chat-content {
+    color: gray;
+}
+
+.chat > .chat-times {
+    width: 10%;
+    float: right;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.3);;
+}
+
+.chat-times > .chat-time {
+    margin-top: 50px;
+    font-size: small;
+    color: gray;
+}
